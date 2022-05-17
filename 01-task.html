@@ -38,13 +38,15 @@
 </body>
 
 <script>
+    let borders = document.querySelectorAll('p');
+    for (const border of borders){
+        border.style.border = '1px solid red';
+    }
+    
     /* 
     Задание:
     Найдите на странице все параграфы с классом border и добавьте для них сплошную красную рамку толщиной в 1px
     */
-
-   let bord = document.querySelectorAll('.border');
-   bord.style.border = "1px solid red";
    
 </script>
 
